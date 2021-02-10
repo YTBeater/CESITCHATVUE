@@ -32,12 +32,13 @@ router.isReady().then(() => {
 });
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBxBOY52wExAe7nldQpjBgmYn881sOEsnQ",
-  authDomain: "tchat-cesi-ypi-c9160.firebaseapp.com",
-  projectId: "tchat-cesi-ypi-c9160",
-  storageBucket: "tchat-cesi-ypi-c9160.appspot.com",
-  messagingSenderId: "509812095288",
-  appId: "1:509812095288:web:c45c10bf423b1f46a5e9cd"
+  apiKey: "AIzaSyD8V0mNBUplEeQtydskgnmz4KKYyXO-11w",
+  authDomain: "snap-ril20-brest.firebaseapp.com",
+  databaseURL: "https://snap-ril20-brest-default-rtdb.firebaseio.com/",
+  projectId: "snap-ril20-brest",
+  storageBucket: "snap-ril20-brest.appspot.com",
+  messagingSenderId: "173190378149",
+  appId: "1:173190378149:web:0d7b01003cd463bae6134c"
 };
 
 import firebase from 'firebase'

@@ -19,6 +19,8 @@
       <div id="container">
         <strong class="capitalize">{{ $route.params.id }}</strong>
         <p>Accueil</p>
+        <Tchatbox/>
+        <message/>
       </div>
     </ion-content>
   </ion-page>
@@ -41,16 +43,6 @@ export default {
     IonToolbar,
     Message,
     Tchatbox
-  },
-  data()/*:{tableauMessages:String[]}*/{
-    return {
-      tableauMessages:[]
-    }
-  },
-  methods:{
-    messagePush(message/*:string*/){
-      this.tableauMessages.push(message)
-    }
   }
 }
 </script>
